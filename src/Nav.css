@@ -1,0 +1,15 @@
+.Navbar{
+    background-color:lightblue;
+    padding: 20px;
+}
+.Navbar ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
