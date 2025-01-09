@@ -12,7 +12,7 @@ function App() {
 
   }
   return (
-    <div>
+    <div className='App'>
       <Header Persons={Persons} />
       <Main Persons={Persons} />
       <Footer Persons={Persons} />
