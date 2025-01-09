@@ -1,11 +1,10 @@
-import React from "react";
-import './Footer.css'
-const Footer=()=>{
+import React from'react'
+
+const Footer=(Persons)=>{
     return(
-    <div className="Footer">
-        <h3>Thank You Everyone</h3>
-    </div>
+        <Footer>
+            <p>Thank Yopt{Persons.name}</p>
+        </Footer>
     )
 }
-
 export default Footer

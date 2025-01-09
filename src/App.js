@@ -1,18 +1,24 @@
-import Navbar from './Navbar';
-import './Nav.css';
-import Mainpage from './Mainpage';
-import './Mainpage.css';
-import Footer from './Footer';
+import './App.css';
+import Header from'./Header';
+import Main from'./Main';
+import Footer from'./Footer';
 
 
 function App() {
+  const Persons={
+    name:'Rohith',
+    age:'24',
+    city:'Chennai'
+
+  }
   return (
-    <>
-    <Navbar />
-    <Mainpage />
-    <Footer />
-    </>
+    <div>
+      <Header Persons={Persons} />
+      <Main Persons={Persons} />
+      <Footer Persons={Persons} />
+    </div>
   );
 }
+
 
 export default App;
