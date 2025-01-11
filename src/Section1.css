@@ -1,0 +1,10 @@
+table,tr,th,td{
+    border-collapse: collapse;
+}
+table th{
+    width: 200px;
+    border: none;
+    text-transform: capitalize;
+    background-color: rgb(175, 190, 196);
+    padding: 10px 0px ;
+}
