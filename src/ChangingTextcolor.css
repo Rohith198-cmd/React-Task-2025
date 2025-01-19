@@ -1,0 +1,40 @@
+.textcolorchange{
+    margin-top: 10%;
+    padding: 20px;
+}
+.btn1{
+    border:solid 1px black;
+    padding:10px;
+    margin-left: 40px;
+    background-color: lightblue;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btn2{
+    border:solid 1px black;
+    padding:10px;
+    margin-left: 40px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+.btn3{
+    border:solid 1px black;
+    padding:10px;
+    margin-left: 40px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+.btn4{
+    border:solid 1px black;
+    padding:10px;
+    margin-left: 40px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+.btn5{
+    border:solid 1px black;
+    padding:10px;
+    margin-left: 40px;
+    background-color: lightblue;
+    font-weight: bold;
+}
