@@ -1,0 +1,29 @@
+.useRef{
+    margin: 100px;
+    height: 200px;
+    border: solid 1px;
+
+}
+input{
+    margin-top: 100px;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.05px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(0, 195, 255);
+        color: black;
+    }
+}
+li{
+    list-style: none;
+    width: 200px;
+    margin: auto;
+    text-transform: capitalize;
+
+}
