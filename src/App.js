@@ -1,16 +1,16 @@
 
 import './App.css';
+import { DataContextProvider } from './dataContext';
+import Main from './Main';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          hello world
-        </h1>
-      </header>
+      <DataContextProvider>
+        <Main />
+      </DataContextProvider>
     </div>
   );
 }
-
-export default App;
+export default App
