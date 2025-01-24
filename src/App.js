@@ -7,7 +7,7 @@ import Main from './Main';
 function App() {
   return (
     <div className="App">
-      <DataContextProvider>
+    <DataContextProvider>
         <Main />
       </DataContextProvider>
     </div>

@@ -15,7 +15,7 @@ export function DataContextProvider({children}){
             alert('Input Cannot be Empty')
             return
         }
-        const newData=[...data,input,input2,input3]
+        const newData=[...data,{name:input ,age:input2,city:input3}]
         setData(newData)
         setInput('')
         setInput2('')

@@ -4,11 +4,16 @@ import dataContext from './dataContext'
 const Listdata = () => {
     const {data}=useContext(dataContext)
   return (
-        <ul>
-            {
-                data.map((item,i)=><li key={`${item}-${i}`}></li>)
+        <tbody>
+            {     
+                data.map((data,i)=><tr key={`${data.name}-${i}`}>
+                    <td>{data.name}</td>
+                    <td>{data.age}</td>
+                    <td>{data.city}</td>
+                </tr>
+                )
             }
-        </ul>
+        </tbody>
   )
 }
 
