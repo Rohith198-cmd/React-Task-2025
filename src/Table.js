@@ -1,19 +1,21 @@
-import React from 'react'
-import TableBody from './data'
+// import React from 'react'
+// import TableBody from './data'
 
-const Table = () => {
-  return (
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>AGE</th>
-                <th>CITY</th>
-            </tr>
-        </thead>
-        <TableBody />
-    </table>
-  )
-}
+// const Table = () => {
+//   return (
+//     <table>
+//         <thead>
+//             <tr>
+//                 <th>ID</th>
+//                 <th>PRODUCTS NAME</th>
+//                 <th>QUALITY</th>
+//                 <th>PRICE</th>
+//                 <th>MF DATE</th>
+//             </tr>
+//         </thead>
+//         <TableBody />
+//     </table>
+//   )
+// }
 
-export default Table
+// export default Table

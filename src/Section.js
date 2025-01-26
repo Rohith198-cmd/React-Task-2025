@@ -1,12 +1,11 @@
-import React from 'react'
-import Table from './Table'
+// import React from 'react'
+// import Table from './Table'
 
-const Section = () => {
-  return (
-    <section>
-        <Table />
-    </section>
-  )
-}
+// const Section = () => {
+//   return (
+    
+//         <Table />
+//   )
+// }
 
-export default Section
+// export default Section
