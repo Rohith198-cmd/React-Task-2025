@@ -1,19 +1,19 @@
 import React from "react";
 import './Section1.css'
-const Section=({details})=>{
+const Section=()=>{
     return(
         <div className="Section1">
             <table>
                 <thead>
                     <tr>
-                        <th>sno</th>
-                        <th>name</th>
-                        <th>gender</th>
-                        <th>phoneNo</th>
-                        <th>email</th>
-                        <th>course</th>
-                        <th>city</th>
-                        <th>pincode</th>
+                        <th>Sno</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>PhoneNo</th>
+                        <th>E-mail</th>
+                        <th>Course</th>
+                        <th>City</th>
+                        <th>Pincode</th>
                     </tr>
                 </thead>
             </table>

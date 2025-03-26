@@ -1,7 +1,5 @@
 import Navbar from './Navbar';
 import Main from './Main';
-
-
 import Footer from './Footer';
 
 function App() {
@@ -76,8 +74,8 @@ function App() {
     phoneNumber:1234567890,
     email:'sundhar@gmail.com',
     course:'html',
-    city:'chennai',
-    pincode:600001
+    city:'Tiruvallur',
+    pincode:600067
   }]
   console.log(details);
 
